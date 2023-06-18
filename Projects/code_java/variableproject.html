@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Variables</title>
+    <style>
+      /* style is used to write css */
+
+    </style>
+  <!-- this above is css cascading style sheets -->
+
+  </head>
+  <body>
+    <button onclick="
+      console.log(`cart quantity: ${cartQuantity}`);">
+      Show Quantity
+    </button>
+   <button onclick =" 
+      cartQuantity = cartQuantity +1;
+      console.log(`cart quantity: ${cartQuantity }`);
+      ">
+     Add to cart
+   </button>
+   <button onclick = "
+      cartQuantity = cartQuantity +2;
+      console.log(`cart quantity: ${cartQuantity }`);">
+      <!-- we are using ` beside key 1 on  ~ button -->
+     +2
+   </button>
+   <button onclick = "
+      cartQuantity = cartQuantity +3;
+
+      console.log(`cart quantity: ${cartQuantity } `);">
+     +3
+   </button>
+   <button onclick="
+      cartQuantity = cartQuantity = 0;
+      console.log(`cart quantity:  ${cartQuantity }`);">
+     Reset cart
+   </button>
+
+    <script>
+      let cartQuantity =0;
+
+
+    </script>
+
+
+  </body>
+</html>
+
+
+
+
+
+
